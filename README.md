@@ -70,4 +70,23 @@ The script generates an Excel file named "output.xlsx" in the project directory.
 
 ## ****Notes****
 
-- Ensure that both JSON files have the same keys for proper data combination.
+- Before using the script, ensure that both JSON files (`file1` and `file2`) adhere to a specific structure. Each JSON file should be an object where the keys serve as a common identifier, and the values hold the associated data. The expected structure is as follows:
+
+### <file-1>
+```json 
+{
+    "key1": "value1",
+    "key2": "value2",
+    // Add more key-value pairs as needed
+}
+```
+### <file-2>
+```json 
+{
+    "key1": "value-01",
+    "key2": "value-02",
+    // Add more key-value pairs as needed
+}
+```
+
+It is crucial that both JSON files maintain identical keys for proper data combination within the script.
