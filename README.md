@@ -72,7 +72,7 @@ The script generates an Excel file named "output.xlsx" in the project directory.
 
 - Before using the script, ensure that both JSON files (`file1` and `file2`) adhere to a specific structure. Each JSON file should be an object where the keys serve as a common identifier, and the values hold the associated data. The expected structure is as follows:
 
-### <file-1>
+* file-1
 ```json 
 {
     "key1": "value1",
@@ -80,7 +80,7 @@ The script generates an Excel file named "output.xlsx" in the project directory.
     // Add more key-value pairs as needed
 }
 ```
-### <file-2>
+* file-2
 ```json 
 {
     "key1": "value-01",
