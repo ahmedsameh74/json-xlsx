@@ -1,0 +1,14 @@
+{
+  "name": "jsontoxlsx",
+  "version": "1.0.0",
+  "description": "This script reads two JSON files, combines the data, and creates an Excel file using the xlsx library.",
+  "main": "app.js",
+  "scripts": {
+    "jsontoxlsx": "node app.js"
+  },
+  "author": "ahmed sameh",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
